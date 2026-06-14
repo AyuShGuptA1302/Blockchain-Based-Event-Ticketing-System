@@ -1,15 +1,4 @@
-<<<<<<< HEAD
 
-  # test
-
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
-
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
-=======
 # Blockchain-Based-Event-Ticketing-System
 A decentralized event ticketing system built using Ethereum, Solidity, React.js, Truffle, Ganache, and MetaMask for secure ticket booking and verification.
 
