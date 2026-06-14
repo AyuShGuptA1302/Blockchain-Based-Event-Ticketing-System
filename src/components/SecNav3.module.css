@@ -1,0 +1,147 @@
+.ghbkfdjcsxIcon {
+  height: 24.7px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.concert {
+  position: relative;
+  display: inline-block;
+  min-width: 113px;
+}
+.secNav1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+  gap: var(--gap-3xs);
+}
+.ghbkfdjcsxIcon1 {
+  height: 24.7px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.concert1 {
+  position: relative;
+  display: inline-block;
+  min-width: 52px;
+}
+.secNav2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+  gap: var(--gap-3xs);
+}
+.concert2 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-iceberg);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 83px;
+}
+.ghbkfdjcsxIcon2 {
+  height: 15.8px;
+  width: 16px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.secNav3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-xl) 20.700000000000728px;
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+}
+.secNav3:hover {
+  background-color: var(--color-darkslategray-400);
+}
+.ghbkfdjcsxIcon3 {
+  height: 24.7px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.concert3 {
+  position: relative;
+  display: inline-block;
+  min-width: 67px;
+}
+.secNav4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+  gap: var(--gap-3xs);
+}
+.ghbkfdjcsxIcon4 {
+  height: 24.7px;
+  width: 25px;
+  object-fit: cover;
+  min-height: 25px;
+}
+.concert4,
+.ghbkfdjcsxIcon4 {
+  position: relative;
+}
+.secNav,
+.secNav5 {
+  flex-direction: row;
+}
+.secNav5 {
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+  gap: var(--gap-3xs);
+}
+.secNav {
+  align-self: stretch;
+  background-color: var(--color-white);
+  box-shadow: 0-19px 169.2px rgba(17, 17, 17, 0.48);
+  overflow-x: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-225xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-iceberg);
+}
+@media screen and (max-width: 750px) {
+  .secNav {
+    padding-left: var(--padding-103xl);
+    padding-right: var(--padding-103xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .concert,
+  .concert1,
+  .concert3,
+  .concert4 {
+    font-size: var(--font-size-base);
+  }
+  .secNav {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

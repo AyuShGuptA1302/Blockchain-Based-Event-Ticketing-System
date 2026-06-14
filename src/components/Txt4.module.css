@@ -1,0 +1,121 @@
+.home {
+  margin-top: -1px;
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+  cursor: pointer;
+}
+.constantValueIcon {
+  width: 18.5px;
+  height: 16px;
+  position: relative;
+}
+.forEachLoop {
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) 0 0;
+  box-sizing: border-box;
+}
+.thriftShop {
+  position: relative;
+  display: inline-block;
+  min-width: 68px;
+}
+.elseStatement {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  gap: 8.25px;
+}
+.thriftShop1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.assignmentOperator {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-12xs) var(--padding-8xs)
+    var(--padding-10xs);
+}
+.variableHolder {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xl);
+  font-size: var(--font-size-13xl);
+}
+.ifStatement,
+.ifStatementWrapper,
+.variableHolder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ifStatement {
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.ifStatementWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-2xs);
+}
+.p,
+.wereHereTo {
+  margin: 0;
+}
+.wereHereToContainer {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.logicalOperator,
+.txt {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logicalOperator {
+  width: 470px;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-10xs) 0;
+}
+.txt {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-100);
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-mid);
+  gap: var(--gap-21xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-iceberg);
+}
+@media screen and (max-width: 750px) {
+  .thriftShop1 {
+    font-size: var(--font-size-7xl);
+  }
+  .txt {
+    gap: 20px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .thriftShop1 {
+    font-size: var(--font-size-lgi);
+  }
+}

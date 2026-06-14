@@ -1,0 +1,105 @@
+.home,
+.logoIcon {
+  position: relative;
+}
+.logoIcon {
+  height: 60px;
+  width: 96px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.home {
+  font-size: var(--font-size-base);
+  font-family: var(--font-iceberg);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 39px;
+}
+.nav1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-xl);
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nav1:hover {
+  background-color: var(--color-darkslategray-400);
+}
+.home1 {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+  white-space: nowrap;
+}
+.nav2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+}
+.home2 {
+  position: relative;
+  display: inline-block;
+  min-width: 69px;
+  white-space: nowrap;
+}
+.nav3 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl);
+}
+.headerNav,
+.nav,
+.nav3 {
+  display: flex;
+  flex-direction: row;
+}
+.nav {
+  margin: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-iceberg);
+}
+.headerNav {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-766xl);
+  background-image: url(/public/header-nav@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+@media screen and (max-width: 1200px) {
+  .headerNav {
+    gap: 785px 392px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .headerNav {
+    gap: 785px 196px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nav {
+    display: none;
+  }
+  .headerNav {
+    gap: 785px 98px;
+  }
+}

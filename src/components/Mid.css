@@ -1,0 +1,54 @@
+.were-here-to {
+  margin: 0;
+}
+.create-event2,
+.were-here-to-container {
+  position: absolute;
+  top: 99px;
+  left: 494px;
+}
+.create-event2 {
+  top: -14px;
+  left: 697px;
+  font-size: var(--font-size-77xl);
+}
+.span {
+  font-size: var(--font-size-45xl);
+}
+.home12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.create-event3,
+.div2,
+.frame,
+.mid {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+}
+.div2,
+.frame,
+.mid {
+  left: 65px;
+}
+.frame,
+.mid {
+  top: 0;
+  left: 74px;
+  width: 208px;
+  height: 69px;
+  overflow: hidden;
+}
+.mid {
+  top: 123px;
+  left: 0;
+  background-color: var(--color-darkslategray-100);
+  width: 1921px;
+  height: 152px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-iceberg);
+}

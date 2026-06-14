@@ -1,0 +1,106 @@
+.span {
+  font-size: var(--font-size-45xl);
+}
+.home {
+  height: 69px;
+  position: relative;
+  display: inline-block;
+}
+.sectiontextIcon {
+  width: 13.5px;
+  height: 17.5px;
+  position: relative;
+}
+.aseatvector,
+.homeAboutContacttabs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aseatvector {
+  flex-direction: column;
+  padding: var(--padding-14xl-5) 0 0;
+}
+.homeAboutContacttabs {
+  flex-direction: row;
+  gap: 0 7.5px;
+}
+.span1 {
+  font-size: var(--font-size-45xl);
+}
+.ticket {
+  height: 69px;
+  position: absolute;
+  margin: 0 !important;
+  top: -58px;
+  left: 86px;
+  display: inline-block;
+}
+.ticket1 {
+  position: relative;
+  font-size: var(--font-size-77xl);
+  z-index: 1;
+}
+.gatetext,
+.homelabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.gatetext {
+  flex-direction: row;
+  position: relative;
+  margin-top: -11px;
+}
+.homelabel {
+  flex-direction: column;
+}
+.p,
+.wereHereTo {
+  margin: 0;
+}
+.wereHereToContainer {
+  height: 87px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.mid {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-44xl) 0;
+  box-sizing: border-box;
+  gap: 20px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-iceberg);
+}
+@media screen and (max-width: 1050px) {
+  .ticket1 {
+    font-size: var(--font-size-29xl);
+  }
+  .mid {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home,
+  .ticket {
+    font-size: var(--font-size-lgi);
+  }
+  .ticket1 {
+    font-size: var(--font-size-10xl);
+  }
+  .wereHereToContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

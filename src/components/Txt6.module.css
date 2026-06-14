@@ -1,0 +1,131 @@
+.home {
+  margin-top: -1px;
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+  cursor: pointer;
+}
+.frameChild {
+  width: 18.5px;
+  height: 16px;
+  position: relative;
+}
+.vectorWrapper {
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) 0 0;
+  box-sizing: border-box;
+}
+.thriftShop {
+  position: relative;
+  display: inline-block;
+  min-width: 74px;
+}
+.homeParent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  gap: 8.25px;
+}
+.thriftShop1 {
+  margin: 0;
+  width: 485px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.frameWrapper,
+.thriftShopWrapper {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.thriftShopWrapper {
+  width: 378px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 var(--padding-8xs) var(--padding-10xs);
+  max-width: 100%;
+}
+.frameWrapper {
+  padding: 0 0 0 var(--padding-11xl);
+  font-size: var(--font-size-13xl);
+}
+.frameParent,
+.frameWrapper,
+.txtInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.txtInner {
+  flex-direction: row;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.p,
+.wereHereTo {
+  margin: 0;
+}
+.wereHereToContainer {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.txt,
+.wereHereToAssistYouContWrapper {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.wereHereToAssistYouContWrapper {
+  width: 470px;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-10xs) 0;
+}
+.txt {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-100);
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-mid);
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-iceberg);
+}
+@media screen and (max-width: 750px) {
+  .thriftShop1 {
+    font-size: var(--font-size-7xl);
+  }
+  .txt {
+    gap: 20px 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .thriftShop1 {
+    font-size: var(--font-size-lgi);
+  }
+}

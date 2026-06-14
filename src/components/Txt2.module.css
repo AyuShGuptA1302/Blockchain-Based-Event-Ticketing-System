@@ -1,0 +1,96 @@
+.home {
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+  cursor: pointer;
+}
+.frameChild {
+  width: 18.5px;
+  height: 22.1px;
+  position: relative;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) 0 0;
+}
+.createEvent {
+  position: relative;
+  display: inline-block;
+  min-width: 69px;
+}
+.createEventWrapper,
+.homeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.createEventWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.homeParent {
+  flex-direction: row;
+  gap: 8.25px;
+}
+.createEvent1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.createEventContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+}
+.p,
+.wereHereTo {
+  margin: 0;
+}
+.wereHereToContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi);
+}
+.frameParent,
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 464px;
+  gap: var(--gap-mid);
+  font-size: var(--font-size-17xl);
+}
+.txt {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-4xs) var(--padding-17xl) var(--padding-25xl);
+  box-sizing: border-box;
+  gap: 2.399999999999636px;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-iceberg);
+}
+@media screen and (max-width: 1050px) {
+  .createEvent1 {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .createEvent1 {
+    font-size: var(--font-size-3xl);
+  }
+}

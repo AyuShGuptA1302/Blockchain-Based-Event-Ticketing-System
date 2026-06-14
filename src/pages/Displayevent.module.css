@@ -1,0 +1,98 @@
+.container {
+  width: 100%;
+  position: relative;
+  /*background-color: #ffcb74;*/
+  background-color: #ffffff;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  letter-spacing: normal;
+  /*background-image: url("C:\Users\hello\Desktop\newreact\frontend3\public\pexelsjoshsorenson976866-1@2x.png");
+*/}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  top : 100px;
+  margin-top: 90px; 
+}
+
+.main {
+  top : 100px;
+  width: 100%;
+}
+
+.eventGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top : 200px;
+}
+
+.eventItem {
+  border: 3px solid #dbdbdf;
+  padding: 10px;
+  background-color: #d3d4d4;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 20px #111111;
+}
+
+.eventItem:hover {
+ /* background-color: #383737;*/
+}
+
+.eventItem img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+
+}
+
+.eventContent {
+  margin-top: 10px;
+}
+
+.eventContent h2 {
+  font-size: var(--font-size-21xl);
+  
+  font-weight: bold;
+  margin: 0;
+  color: #111111;
+}
+.but{
+  border: none;
+  padding: 12px 24px;
+box-shadow: #080808; 
+
+  letter-spacing: 2px;  
+  cursor: pointer;
+  margin-left: 650px;
+  width: 400px;
+  height: 60px;
+  font-size: 23px;
+  font-family: var(--font-iceberg);
+  background: #2c2c2c;
+  color: rgba(255, 255, 255, 0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all .3s ease; 
+}
+.hh{
+  color: #080808;
+  text-align: center;
+  font-size: 43px;
+  font-family: var(--font-iceberg);
+}
+@media (max-width: 600px) {
+  .eventGrid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}

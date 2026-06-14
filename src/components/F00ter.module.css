@@ -1,0 +1,172 @@
+.gm1Icon {
+  align-self: stretch;
+  width: 43px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 26px;
+}
+.infogoticketgmailcom {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.functionCall,
+.variableHolder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.variableHolder {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.functionCall {
+  width: 329px;
+  flex-direction: column;
+  padding: var(--padding-sm-5) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ffIcon,
+.iIcon {
+  position: relative;
+  object-fit: cover;
+}
+.ffIcon {
+  align-self: stretch;
+  width: 16px;
+  max-height: 100%;
+  min-height: 42px;
+}
+.iIcon {
+  width: 33px;
+  height: 33px;
+}
+.iWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.xxIcon {
+  align-self: stretch;
+  width: 34.4px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 42px;
+}
+.anchors,
+.socal {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socal {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-9xs-5) 0;
+  gap: var(--gap-mini);
+}
+.anchors {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.termsConditions {
+  flex: 1;
+  display: inline-block;
+  min-width: 143px;
+}
+.privacyPolicy,
+.termsConditions {
+  position: relative;
+}
+.styles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.frame,
+.instances {
+  flex: 1;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.instances {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-mid) 31.400000000001455px var(--padding-mid)
+    31.599999999998545px;
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+  max-width: 100%;
+}
+.frame {
+  padding: 0 var(--padding-6xs);
+}
+.f00ter,
+.frame,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper {
+  height: 53px;
+  width: 487px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0;
+}
+.f00ter {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding: 0 148.29999999999927px;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-sandybrown);
+  font-family: var(--font-iceberg);
+}
+@media screen and (max-width: 1275px) {
+  .f00ter {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .instances {
+    flex-wrap: wrap;
+  }
+  .frameWrapper {
+    height: auto;
+  }
+  .f00ter {
+    padding-left: var(--padding-55xl);
+    padding-right: var(--padding-55xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .infogoticketgmailcom,
+  .privacyPolicy,
+  .termsConditions {
+    font-size: var(--font-size-lgi);
+  }
+  .f00ter {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,152 @@
+.createEvent {
+    position: relative;
+    font-size: 23px;
+  font-family: var(--font-iceberg);
+   
+    text-align: left;
+    display: inline-block;
+    min-width: 85px;
+    white-space: nowrap;
+  }
+  .ghbkfdjcsxIcon {
+    height: 15.8px;
+    width: 16px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+  }
+  .secNav1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-xl) 20.700000000000728px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    white-space: nowrap;
+  }
+  
+  .ghbkfdjcsxIcon1 {
+    height: 24.7px;
+    width: 25px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+  }
+  .venue {
+    position: relative;
+    display: inline-block;
+    min-width: 52px;
+    white-space: nowrap;
+    font-size: 23px;
+    font-family: var(--font-iceberg);
+  }
+  .secNav2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-xl) 20.700000000000728px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    white-space: nowrap;
+  }
+  .ghbkfdjcsxIcon2 {
+    height: 24.7px;
+    width: 25px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+  }
+  .eventManagment {
+    position: relative;
+    white-space: nowrap;
+    font-size: 23px;
+    font-family: var(--font-iceberg);
+  }
+  .secNav3 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-xl) 20.700000000000728px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    white-space: nowrap;
+  }
+  .ghbkfdjcsxIcon3 {
+    height: 24.7px;
+    width: 25px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+  }
+  .concert {
+    position: relative;
+    white-space: nowrap;
+    font-size: 23px;
+    font-family: var(--font-iceberg);
+  }
+  .secNav4 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-xl) 20.700000000000728px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    white-space: nowrap;
+  }
+  .ghbkfdjcsxIcon4 {
+    height: 24.7px;
+    width: 25px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+  }
+  .account {
+    position: relative;
+    display: inline-block;
+    min-width: 67px;
+    white-space: nowrap;
+    font-size: 23px;
+    font-family: var(--font-iceberg);
+  }
+  .secNav5 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-xl) 20.700000000000728px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    white-space: nowrap;
+  }
+  .secNav,
+  .secNavWrapper {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .secNav {
+    flex: 1;
+    background-color: var(--color-white);
+    box-shadow: 0-19px 169.2px rgba(17, 17, 17, 0.48);
+    overflow-x: auto;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 46.5px;
+    gap: var(--gap-xl);
+  }
+  .secNavWrapper {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 17.300000000000182px;
+  }

@@ -1,0 +1,98 @@
+.home {
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+  cursor: pointer;
+}
+.frameChild {
+  width: 18.5px;
+  height: 22.1px;
+  position: relative;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) 0 0;
+}
+.concert {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+}
+.concertWrapper,
+.homeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.concertWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.homeParent {
+  flex-direction: row;
+  gap: 8.25px;
+}
+.concert1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 119px;
+}
+.logoInstance {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+}
+.p,
+.wereHereTo {
+  margin: 0;
+}
+.wereHereToContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi);
+}
+.ghbkfdjcsx,
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ghbkfdjcsx {
+  width: 464px;
+  gap: var(--gap-mid);
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+}
+.txt {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-100);
+  overflow: hidden;
+  padding: var(--padding-4xs) var(--padding-17xl) var(--padding-25xl);
+  gap: 2.399999999999636px;
+  flex-shrink: 0;
+  debug_commit: 1cbd860;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-iceberg);
+}
+@media screen and (max-width: 1050px) {
+  .concert1 {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .concert1 {
+    font-size: var(--font-size-3xl);
+  }
+}

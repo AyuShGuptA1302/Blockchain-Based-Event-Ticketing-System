@@ -1,0 +1,573 @@
+.log1Icon {
+  height: 123px;
+  width: 215px;
+  position: relative;
+  object-fit: cover;
+}
+.new{
+  height: 150px;
+}
+.about,
+.contact,
+.home {
+  position: relative;
+  z-index: 1;
+}
+.framecontent,
+.header,
+.hometext {
+  display: flex;
+  align-items: flex-start;
+}
+.hometext {
+  margin: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 38px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-iceberg);
+}
+.framecontent,
+.header {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.framecontent {
+  margin: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 0;
+}
+.header {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl) 0 var(--padding-164xl);
+  gap: 0 478px;
+  background-image: url(/public/header1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.sectionSeatFrameChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 66px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.section {
+  margin-left: -2px;
+}
+.raw,
+.section {
+  position: relative;
+}
+.contactVector {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 0;
+}
+.seat {
+  position: relative;
+}
+.homeFrame,
+.sectionFrame {
+  display: flex;
+  align-items: flex-start;
+}
+.sectionFrame {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-9xs) 9px 0 0;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.homeFrame {
+  width: 485px;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 88px;
+  max-width: 100%;
+}
+.div {
+  position: relative;
+}
+.addisAbebaStadiumBanner {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.a {
+  align-self: stretch;
+  position: relative;
+}
+.vipText {
+  width: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+}
+.div1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.lineFrame,
+.mainFrame,
+.midFrame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.lineFrame {
+  height: 43px;
+  width: 438px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-10xs) 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+  margin-left: -483px;
+}
+.mainFrame,
+.midFrame {
+  justify-content: flex-start;
+}
+.mainFrame {
+  flex: 1;
+  align-items: flex-end;
+}
+.midFrame {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+}
+.privacyPolicyText {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.addisAbebaStadium,
+.gate01 {
+  position: relative;
+  z-index: 2;
+}
+.gateText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl) 0 0;
+}
+.opens1230 {
+  position: relative;
+  white-space: nowrap;
+  z-index: 2;
+}
+.openingFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 23px;
+}
+.vip {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.iRectangle,
+.termsConditionsText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iRectangle {
+  width: 64px;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+}
+.termsConditionsText {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-lgi) var(--padding-16xl)
+    var(--padding-xl);
+  position: relative;
+  gap: 52px 0;
+  font-size: var(--font-size-5xl);
+}
+.vipFrame,
+.vipSectionChild {
+  align-self: stretch;
+  max-width: 100%;
+}
+.vipFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 5px 0;
+}
+.vipSectionChild {
+  flex: 1;
+  position: relative;
+  border-radius: 54px;
+  border: 4px dashed var(--color-white);
+  box-sizing: border-box;
+}
+.footerInfo,
+.vipSection {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vipSection {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  padding: var(--padding-9xs) var(--padding-5xs) 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.footerInfo {
+  height: 350px;
+  padding: 0 var(--padding-61xl);
+}
+.footerFrame,
+.footerInfo,
+.sectionSeatFrame {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sectionSeatFrame {
+  width: 564px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 46px var(--padding-xl) 256px var(--padding-lg);
+  position: relative;
+  gap: 109px 0;
+}
+.footerFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.contactText {
+  gap: 19px 0;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-iceberg);
+}
+.contactText,
+.headerFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.gm1Icon {
+  width: 43px;
+  height: 26px;
+  position: relative;
+  object-fit: cover;
+}
+.gmFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl-5) 0 0;
+}
+.infogoticketgmailcom {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+}
+.gateText1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl-5) 0 0;
+  box-sizing: border-box;
+  min-width: 267px;
+  max-width: 100%;
+}
+.ff,
+.i {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.ff {
+  width: 30px;
+  background-image: url(/public/ff1@3x.png);
+}
+.i {
+  flex: 1;
+  background-image: url(/public/i1@3x.png);
+}
+.xxFrame {
+  height: 71px;
+  width: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.xx {
+  text-decoration: none;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-image: url(/public/xx1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.privacyPolicy {
+  height: 74px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.ffFrame,
+.infoFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ffFrame {
+  height: 87px;
+  width: 199px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.infoFrame {
+  margin-top: -28.5px;
+  width: 677px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0 12px;
+  max-width: calc(100% - 410px);
+  flex-shrink: 0;
+}
+.privacyPolicy1,
+.termsConditions {
+  position: relative;
+}
+.policyText {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.footer,
+.policyText,
+.termsText,
+.ticket {
+  display: flex;
+  align-items: flex-start;
+}
+.termsText {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 23px;
+  max-width: calc(100% - 697px);
+  flex-shrink: 0;
+}
+.footer,
+.ticket {
+  overflow: hidden;
+}
+.footer {
+  align-self: stretch;
+  height: 86px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-8xl-5) var(--padding-86xl) 0 var(--padding-85xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-sandybrown);
+  font-family: var(--font-iceberg);
+}
+.ticket {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 141px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    gap: 0 239px;
+    padding-left: var(--padding-72xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .a,
+  .div,
+  .div1,
+  .raw,
+  .seat,
+  .section,
+  .vip {
+    font-size: var(--font-size-10xl);
+  }
+  .sectionSeatFrame {
+    padding-top: var(--padding-11xl);
+    padding-bottom: 166px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .framecontent {
+    display: none;
+  }
+  .header {
+    gap: 0 119px;
+    padding-left: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+  .openingFrame {
+    flex-wrap: wrap;
+  }
+  .termsConditionsText {
+    gap: 26px 0;
+  }
+  .footerInfo {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .sectionSeatFrame {
+    gap: 54px 0;
+    padding-top: var(--padding-xl);
+    padding-bottom: 108px;
+    box-sizing: border-box;
+  }
+  .termsText {
+    flex-wrap: wrap;
+  }
+  .footer {
+    height: auto;
+    padding-left: var(--padding-33xl);
+    padding-right: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+  .ticket {
+    gap: 70px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hometext {
+    gap: 0 19px;
+  }
+  .header {
+    gap: 0 60px;
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .raw,
+  .seat,
+  .section {
+    font-size: var(--font-size-3xl);
+  }
+  .sectionFrame {
+    flex-wrap: wrap;
+  }
+  .a,
+  .div,
+  .div1 {
+    font-size: var(--font-size-3xl);
+  }
+  .addisAbebaStadium,
+  .gate01,
+  .opens1230 {
+    font-size: var(--font-size-lgi);
+  }
+  .vip {
+    font-size: var(--font-size-3xl);
+  }
+  .sectionSeatFrame {
+    gap: 27px 0;
+  }
+  .infogoticketgmailcom,
+  .privacyPolicy1,
+  .termsConditions {
+    font-size: var(--font-size-lgi);
+  }
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .ticket {
+    gap: 35px 0;
+  }
+}

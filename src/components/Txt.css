@@ -1,0 +1,104 @@
+.home11 {
+  margin-top: -1px;
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+  cursor: pointer;
+}
+.frame-child1 {
+  width: 18.5px;
+  height: 16px;
+  position: relative;
+}
+.vector-wrapper {
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) 0 0;
+  box-sizing: border-box;
+}
+.thrift-shop4 {
+  position: relative;
+  display: inline-block;
+  min-width: 61px;
+}
+.home-parent {
+  width: 137px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: 8.25px;
+}
+.thrift-shop5 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.thrift-shop-frame {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-14xl);
+  font-size: var(--font-size-17xl);
+}
+.frame-parent2,
+.thrift-shop-frame,
+.txt-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent2 {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.txt-inner {
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+}
+.p2,
+.were-here-to2 {
+  margin: 0;
+}
+.were-here-to-container2 {
+  width: 464px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.txt2 {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-8xl) var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-iceberg);
+}
+@media screen and (max-width: 750px) {
+  .thrift-shop5 {
+    font-size: var(--font-size-10xl);
+  }
+  .txt2 {
+    gap: 22px 44px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .thrift-shop5 {
+    font-size: var(--font-size-3xl);
+  }
+}

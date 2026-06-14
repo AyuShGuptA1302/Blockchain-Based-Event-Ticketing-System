@@ -1,0 +1,386 @@
+.createEvent {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-iceberg);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 85px;
+    white-space: nowrap;
+  }
+  .ghbkfdjcsxIcon {
+    height: 15.8px;
+    width: 16px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+  }
+  .secNav1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-xl) 20.699999999999815px;
+    background-color: var(--color-gray-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    white-space: nowrap;
+  }
+  .secNav1:hover {
+    background-color: var(--color-darkslategray-400);
+  }
+  .ghbkfdjcsxIcon1 {
+    height: 24.7px;
+    width: 25px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+  }
+  .venue {
+    position: relative;
+    display: inline-block;
+    min-width: 52px;
+    white-space: nowrap;
+  }
+  .secNav2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .ghbkfdjcsxIcon2 {
+    height: 24.7px;
+    width: 25px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+  }
+  .eventManagment {
+    position: relative;
+    white-space: nowrap;
+  }
+  .secNav3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .ghbkfdjcsxIcon3 {
+    height: 24.7px;
+    width: 25px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+  }
+  .concert {
+    position: relative;
+    white-space: nowrap;
+  }
+  .secNav4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .ghbkfdjcsxIcon4 {
+    height: 24.7px;
+    width: 25px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+  }
+  .account {
+    position: relative;
+    display: inline-block;
+    min-width: 67px;
+    white-space: nowrap;
+  }
+  .secNav5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) var(--padding-xl);
+    gap: var(--gap-3xs);
+  }
+  .secNav,
+  .secNavWrapper {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .secNav {
+    flex: 1;
+    background-color: var(--color-white);
+    box-shadow: 0-19px 169.2px rgba(17, 17, 17, 0.48);
+    overflow-x: auto;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 46.5px;
+    gap: var(--gap-xl);
+  }
+  .secNavWrapper {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 17.300000000000182px;
+  }
+  .f00ter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-darkslategray-200);
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: space-between;
+    padding: 0 148.3px;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-sandybrown);
+    font-family: var(--font-iceberg);
+  }
+  .evhostChild,
+.evhostItem {
+  width: 140px;
+  height: 827px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.evhost {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
+
+.abebeChala,
+.evhost {
+  position: relative;
+  display: inline-block;
+  color: black;
+}
+.pending,
+.status,
+.concert,
+.eventType,
+.abebechalgmailcom,
+.abebeChala,
+.evhost{
+  color: black;
+  font-size: 20px;
+  font-family: Iceberg, sans-serif;
+}
+.abebeChala {
+  font-size: var(--font-size-xl);
+  min-width: 104px;
+  color: black;
+}
+.evhost {
+  min-width: 103px;
+  white-space: nowrap;
+}
+.evhostWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.abebechalgmailcom {
+  position: relative;
+  white-space: nowrap;
+}
+.abebeChalaParent,
+.abebechalgmailcomWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.abebechalgmailcomWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.abebeChalaParent {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.concert,
+.eventType {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+}
+.concert {
+  min-width: 53px;
+}
+.concertWrapper,
+.eventTypeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.concertWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  font-size: var(--font-size-base);
+}
+.eventTypeParent {
+  flex-direction: row;
+}
+.pending,
+.status {
+  position: relative;
+  display: inline-block;
+  min-width: 62px;
+  right: 20px;
+}
+.pending {
+  min-width: 55px;
+}
+.pendingWrapper,
+.statusParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  right: 20px;
+}
+.pendingWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  font-size: var(--font-size-base);
+}
+.statusParent {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+  right: 20px;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  
+}
+
+.accept {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-iceberg);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 98px;
+  width: 40px;
+  height: 40px;
+}
+.acceptWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-20xl);
+  background-color: rgb(223, 174, 13);
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 30px;
+ 
+}
+
+.eventHost,
+.eventName,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  width: 352px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+  font-size: var(--font-size-xl);
+}
+.eventHost,
+.eventName {
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.eventName {
+  width: 90%;
+  height: 100px;
+  border-radius: 5px;
+  border: 3px solid var(--color-black);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding: var(--padding-21xl) var(--padding-49xl) var(--padding-21xl)
+    var(--padding-67xl);
+  gap: var(--gap-xl);
+}
+.eventHost {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-10xl) var(--padding-2xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-iceberg);
+}
+.main{
+   
+  width: 100%;
+  min-height:500px ;
+}
+@media screen and (max-width: 1100px) {
+  .eventName {
+    padding-left: var(--padding-24xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .eventName {
+    flex-wrap: wrap;
+    padding-left: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .abebeChala,
+  .eventType,
+  .status {
+    font-size: var(--font-size-base);
+  }
+  .accept {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: 56px 28px;
+  }
+}
+

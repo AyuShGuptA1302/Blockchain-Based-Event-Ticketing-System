@@ -1,0 +1,27 @@
+.desktop1 {
+    width: 100%;
+    position: absolute;
+    background-color: green;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 0 43px;
+    gap: 1057px 0;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: green;
+    font-family: var(--font-jejugothic);
+  }
+  .new{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  body{
+    background: white;
+  }
+  .desktop1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }

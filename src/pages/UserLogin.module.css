@@ -1,0 +1,257 @@
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 88px;
+  left: 79px;
+  width: 555.4px;
+  height: 582.5px;
+  object-fit: cover;
+  opacity: 0.03;
+}
+.vectorIcon1 {
+  top: 375px;
+  left: -323px;
+  width: 616.4px;
+  height: 648.5px;
+}
+.vectorIcon2 {
+  top: -267px;
+  left: -213px;
+  width: 653.5px;
+  height: 587.6px;
+  opacity: 0.03;
+}
+.userLoginChild,
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  object-fit: cover;
+}
+.vectorIcon3 {
+  top: 654px;
+  left: -81px;
+  width: 615.2px;
+  height: 641.7px;
+  opacity: 0.03;
+}
+.userLoginChild {
+  top: 0;
+  left: 564px;
+  width: 876px;
+  height: 1022px;
+}
+.signIn {
+  position: absolute;
+  top: 88px;
+  left: 985px;
+  font-size: var(--font-size-45xl);
+  display: inline-block;
+  width: 293px;
+  height: 52px;
+}
+.d418411193784811Icon {
+  position: absolute;
+  top: 284px;
+  left: 57px;
+  width: 620px;
+  height: 789px;
+  object-fit: cover;
+}
+.userLoginInner,
+.userLoginItem {
+  position: absolute;
+  top: 252px;
+  left: 853px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 406px;
+  height: 51px;
+  overflow: hidden;
+}
+.userLoginInner {
+  top: 389px;
+}
+.email1 {
+  position: relative;
+}
+.email {
+  position: absolute;
+  top: 232px;
+  left: 817px;
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--font-size-13xl);
+}
+.userAccount {
+  position: absolute;
+  top: 152px;
+  left: 145px;
+  font-size: var(--font-size-45xl);
+  color: var(--color-sandybrown-200);
+  display: inline-block;
+  width: 293px;
+  height: 55px;
+}
+.password {
+  position: absolute;
+  top: 368px;
+  left: 817px;
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+  font-size: var(--font-size-13xl);
+}
+.xIcon {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.frameDiv,
+.userLoginChild1,
+.xWrapper {
+  position: absolute;
+  left: 892px;
+  border-radius: var(--br-3xs);
+  width: 337px;
+  height: 54px;
+  overflow: hidden;
+}
+.xWrapper {
+  top: 594px;
+ 
+  padding: 0 17px;
+}
+.frameDiv,
+.userLoginChild1 {
+  top: 663px;
+}
+.userLoginChild1 {
+  top: 732px;
+}
+.logIn {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-sandybrown-200);
+  border: burlywood;
+ width: 400px;
+  top: 494px;
+  left: 860px;
+  border-radius: 30px;
+  font-family:  var(--font-iceberg);
+}
+.fIcon,
+.logInUsing {
+  position: absolute;
+  top: 734px;
+  left: 895px;
+  width: 330px;
+  height: 54px;
+  background-color: transparent;
+  font-family:  var(--font-iceberg);
+  font-size: 20px;
+  border-radius: 7px;
+  border-color: var(--color-sandybrown-200);
+}
+.emailinput{
+  width: inherit;
+  height: inherit;
+  background-color: transparent;
+  font-size: 30px;
+}
+.passwordinput{
+  width: inherit;
+  height: inherit;
+  background-color: transparent;
+  font-size: 30px;
+}
+.fIcon {
+  top: 738px;
+  left: 907px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.logI{
+  position: absolute;
+   
+}
+.gIcon,
+.logInUsing1 {
+  position: absolute;
+  top: 662px;
+  left: 895px;
+  width: 330px;
+  height: 54px;
+  background-color: transparent;
+  font-family:  var(--font-iceberg);
+  font-size: 20px;
+  border-radius: 7px;
+  border-color: var(--color-sandybrown-200);
+}
+.gIcon {
+  top: 667px;
+  left: 907px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.log1Icon,
+.logInUsing2 {
+  position: absolute;
+  top: 590px;
+  left: 895px;
+  width: 330px;
+  height: 54px;
+  background-color: transparent;
+  font-family:  var(--font-iceberg);
+  font-size: 20px;
+  border-radius: 7px;
+  border-color: var(--color-sandybrown-200);
+}
+.log1Icon {
+  top: 34px;
+  left: 64px;
+  width: 215px;
+  height: 123px;
+  object-fit: cover;
+}
+.signup,
+.youDontHave {
+  position: absolute;
+  top: 844px;
+  left: 760px;
+  font-size: var(--font-size-21xl);
+}
+.signup {
+  left: 1210px;
+  color: var(--color-sandybrown-200);
+  cursor: pointer;
+}
+.sda1Icon {
+  position: absolute;
+  top: 14px;
+  left: 1377px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.userLogin {
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-iceberg);
+}

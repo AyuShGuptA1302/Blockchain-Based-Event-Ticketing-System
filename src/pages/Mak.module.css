@@ -1,0 +1,395 @@
+.logoContainer,
+.mak {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoContainer {
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.mak {
+  width: 100%;
+  position: relative;
+  background-image: url("C:\Users\hello\Desktop\newreact\frontend3\public\pexelsjoshsorenson976866-1@2x.png");
+  
+  overflow-y: auto;
+  gap: 827.2999999999993px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .mak {
+    gap: 414px 827.3px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mak {
+    gap: 207px 827.3px;
+  }
+}
+
+.space1 {
+  height: 901px;
+  width: 144px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.space1,
+.space2,
+.tr {
+  position: relative;
+}
+.space2 {
+  height: 896px;
+  width: 142px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.txt{
+  background-color: rgb(54, 53, 53);
+  width: 100%;
+}
+.tr {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 70px;
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .tr {
+    padding-left: var(--padding-53xl);
+    padding-right: 71px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tr {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+.typeInstanceIcon {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div{
+  position: absolute;
+  top: 80px;
+  left: 119px; 
+  font-size: 100px;
+}
+.mar {
+  position: absolute;
+  top: 180px;
+  left: 139px; 
+  font-size: 35px;
+}
+
+.mar {
+  display: inline-block;
+  min-width: 35px;
+}
+.marWrapper,
+.parent,
+.tiketInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.marWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-4xs) 0 var(--padding-9xs);
+  margin-top: -14px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.parent,
+.tiketInner {
+  flex-direction: column;
+}
+.parent {
+  align-self: stretch;
+}
+.tiketInner {
+  margin-top: 40px;
+  width: 48px;
+  padding: var(--padding-12xl-5) 0 0;
+  box-sizing: border-box;
+  
+}
+.concert {
+
+  position: absolute;
+  top: 20px;
+  right: 760px; 
+  font-size: 35px;
+  }
+.liveInMillennium {
+  margin: 0;
+  position: absolute;
+  top: 70px;
+  right: 460px;  
+  font-size: 45px;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.div1{
+  position: absolute;
+  top: 130px;
+  right: 780px; 
+  font-size: 25px;
+  
+}
+.seat {
+  position: absolute;
+  top: 120px;
+  right: 820px; 
+  font-size: 35px;
+  
+}
+
+.typeLabelInstance,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  font-size: var(--font-size-base);
+}
+.typeLabelInstance {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.div2{
+  position: absolute;
+  top: 170px;
+  right: 760px; 
+  font-size: 25px;
+  
+}
+.price {
+  position: absolute;
+  top: 160px;
+  right: 809px; 
+  font-size: 35px;
+}
+
+.container,
+.priceLabelInstance,
+.priceParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  font-size: var(--font-size-base);
+}
+.priceLabelInstance,
+.priceParent {
+  flex-direction: row;
+}
+.priceLabelInstance {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.type{
+  position: absolute;
+  top: 200px;
+  right: 815px; 
+  font-size: 35px;
+  
+}
+.vip {
+  position: absolute;
+  top: 210px;
+  right: 775px; 
+  font-size: 25px;
+ 
+}
+
+.vip {
+  min-width: 24px;
+}
+.typeParent,
+.vipWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vipWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  font-size: var(--font-size-base);
+}
+.typeParent {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+}
+.frameContainer,
+.priceLabelInstanceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.priceLabelInstanceParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frameContainer {
+  width: 86px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+}
+.buy {
+  margin: 0;
+  width: 40px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 400;
+  font-family: var(--font-iceberg);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 40px;
+}
+.buybtns,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+}
+.buybtns {
+  position: absolute;
+  top: 200px;
+  right: 500px;
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-11xs) var(--padding-lgi);
+  background-color: var(--color-black);
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.frameParent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper,
+.liveInMillenniumHallParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+  margin-top: -3px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.liveInMillenniumHallParent {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.concertParent,
+.liveInMillenniumHallParent,
+.tiket {
+  display: flex;
+  align-items: flex-start;
+}
+.concertParent {
+  width: 318px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.tiket {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  height: 300px;
+  padding: 5px 16px 5x
+   43px;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: -30px;
+  min-width: 367px;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-iceberg);
+}
+@media screen and (max-width: 750px) {
+  .div {
+    font-size: var(--font-size-19xl);
+  }
+  .tiket {
+    flex-wrap: wrap;
+    padding-left: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-10xl);
+  }
+  .mar {
+    font-size: var(--font-size-base);
+  }
+  .liveInMillennium {
+    font-size: var(--font-size-lgi);
+  }
+  .price,
+  .seat,
+  .type {
+    font-size: var(--font-size-base);
+  }
+  .buy {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .tiket {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,648 @@
+.age,
+.password {
+  border: 2px solid var(--color-gray-100);
+  outline: 0;
+  background-color: transparent;
+  height: 77px;
+  position: relative;
+  border-radius: var(--br-base);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.age {
+  width: 350px;
+  max-width: 100%;
+}
+.password {
+  align-self: stretch;
+  min-width: 210px;
+}
+.confirmPassword,
+.passwordWrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.passwordWrapper {
+  width: 366px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-base) 0 0;
+}
+
+.confirmPassword2 {
+ 
+  
+  position: absolute;
+  top: 480px;
+  right: 520px;
+
+}
+.confirmPassword1 {
+  border: 2px solid var(--color-gray-100);
+  outline: 0;
+  background-color: transparent;
+  height: 77px;
+  width: 340px;
+  position: absolute;
+  top: 510px;
+  right: 340px;
+  border-radius: var(--br-base);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonPost,
+.buttonPostWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.buttonPost {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.buttonPostWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-58xl) var(--padding-11xs);
+  box-sizing: border-box;
+}
+.phone {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+}
+.contactUsButton {
+  position: relative;
+  
+  width: 759px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.clientOrganizerVenueContainChild {
+  position: relative;
+ 
+  border: 2px solid var(--color-gray-100);
+  outline: 0;
+  background-color: transparent;
+  height: 77px;
+  width: 350px;
+  position: relative;
+  border-radius: var(--br-base);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.clientOrganizerVenueContain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-30xl) 119px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.role {
+  position: relative;
+  display: inline-block;
+  min-width: 38px;
+}
+.roleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl);
+}
+.frameChild {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  border: 0 solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.hotelInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.client {
+  position: relative;
+  display: inline-block;
+  min-width: 49px;
+}
+.hotel {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.frameItem {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.stadiumInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.eventOrganizer {
+  position: relative;
+}
+.stadium {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.frameInner {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.outdoorVenueInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.venue {
+  position: relative;
+  display: inline-block;
+  min-width: 52px;
+}
+.hotelParent,
+.outdoorVenue {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.outdoorVenue {
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.hotelParent {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-49xl) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.btnPost,
+.contactUsButtonParent,
+.venueType {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.venueType {
+  border-radius: var(--br-base);
+  border: 2px solid var(--color-gray-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-6xl) var(--padding-6xs) var(--padding-6xl)
+    var(--padding-5xs);
+}
+.btnPost,
+.contactUsButtonParent {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.contactUsButtonParent {
+  gap: var(--gap-5xs);
+}
+.post {
+  margin: 0;
+  height: 39px;
+  width: 59px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+  font-family: var(--font-iceberg);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 59px;
+}
+.btn2,
+.socialIcons {
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.btn2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10xs) var(--padding-32xl) var(--padding-9xs);
+  background-color: var(--color-sandybrown);
+  height: 46px;
+  width: 161px;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.btn2:hover {
+  background-color: var(--color-sandybrown-200);
+}
+.socialIcons {
+  width: 791px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.frameGroup,
+.frameWrapper,
+.socialIcons {
+  display: flex;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 921px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-28xl);
+}
+.frameWrapper {
+  width: 1125px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1234px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-iceberg);
+}
+.frameParent,
+.userman,
+.usermanInner {
+  display: flex;
+  align-items: flex-start;
+}
+.usermanInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-5xl) var(--padding-34xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.userman {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .buttonPost {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .hotelParent {
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .usermanInner {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .clientOrganizerVenueContain {
+    padding-left: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+  .post {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .client,
+  .eventOrganizer,
+  .phone,
+  .role,
+  .venue {
+    font-size: var(--font-size-base);
+  }
+  .post {
+    font-size: var(--font-size-lgi);
+  }
+  .frameGroup {
+    gap: 23px 47px;
+  }
+  .usermanInner {
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+.fitstName,.Email,
+.lastName {
+  position: relative;
+  display: inline-block;
+  min-width: 88px;
+}
+.lastNameLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-3xs) 0 0;
+}
+.username {
+  position: relative;
+  display: inline-block;
+  min-width: 85px;
+}
+.lastNameLabel1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.fitstNameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+   gap: 30px;
+}
+.fitstNameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 30px;
+}
+.frameWrapper {
+  width: 1021px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.fitstName1 {
+  border: 2px solid var(--color-gray-100);
+  outline: 0;
+  margin: 10px 10px 10px 10px;
+  background-color: transparent;
+  align-self: stretch;
+  height: 77px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 210px;
+}
+.Email{
+  position: absolute;
+  top: 370px;
+  right: 1025px;
+}
+.Email1 {
+  border: 2px solid var(--color-gray-100);
+  outline: 0;
+  margin: 10px 10px 10px 10px;
+  position: absolute;
+  top: 390px;
+  right: 760px;
+  background-color: transparent;
+  align-self: stretch;
+  height: 77px;
+  width: 200px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 210px;
+}
+.age1{
+  border: 2px solid var(--color-gray-100);
+  outline: 0;
+  margin: 10px 10px 10px 10px;
+  position: absolute;
+  top: 565px;
+  right: 1300px;
+  background-color: transparent;
+  align-self: stretch;
+  height: 77px;
+  width: 200px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 210px;
+}
+
+.fitstNameGroup,.EmailGroup,
+.infoGmailLink {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infoGmailLink {
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+}
+.fitstNameGroup {
+  width: 350px;
+  flex-direction: column;
+  gap: var(--gap-76xl);
+  max-width: 100%;
+}
+.lastName1 {
+  border: 2px solid var(--color-gray-100);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 77px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 210px;
+}
+.password {
+  position: relative;
+  display: inline-block;
+  min-width: 82px;
+}
+.privacyPolicy,
+.roleLabel,
+.termsAndConditions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.roleLabel {
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+}
+.privacyPolicy,
+.termsAndConditions {
+  flex-direction: column;
+}
+.privacyPolicy {
+  align-self: stretch;
+  gap: var(--gap-80xl);
+}
+.termsAndConditions {
+  width: 360px;
+  padding: var(--padding-10xs) var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.username1 {
+  border: 2px solid var(--color-gray-100);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 77px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 210px;
+}
+.confirmPassword {
+  flex: 1;
+  position: relative;
+}
+.clientOrganizerVenue,
+.usernameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clientOrganizerVenue {
+  width: 206px;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.usernameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-73xl);
+}
+.frameParent,
+.roleField,
+.roleFieldInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.roleFieldInner {
+  width: 350px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.frameParent,
+.roleField {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-iceberg);
+}
+@media screen and (max-width: 1275px) {
+  .roleField {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fitstName,
+  .lastName,
+  .username {
+    font-size: var(--font-size-base);
+  }
+  .fitstNameParent {
+    flex-wrap: wrap;
+  }
+  .age {
+    font-size: var(--font-size-base);
+  }
+  .fitstNameGroup {
+    gap: 47px 95px;
+  }
+  .password {
+    font-size: var(--font-size-base);
+  }
+  .privacyPolicy {
+    gap: 49px 99px;
+  }
+  .confirmPassword {
+    font-size: var(--font-size-base);
+  }
+  .usernameParent {
+    gap: 46px 92px;
+  }
+}

@@ -1,0 +1,68 @@
+.log1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 215px;
+  height: 123px;
+  object-fit: cover;
+}
+.home {
+  cursor: pointer;
+}
+.contact,
+.home {
+  position: relative;
+}
+.frame1,
+.frameInner,
+.homeParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.homeParent {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+  align-items: flex-end;
+  gap: var(--gap-19xl);
+}
+.frame1,
+.frameInner {
+  align-items: flex-start;
+  
+}
+.frame1 {
+  top: 0;
+  left: 500px;
+  width: 800px;
+  height: 69px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frame,
+.frame1,
+.frame2 {
+  position: absolute;
+  overflow: hidden;
+}
+.frame2 {
+  top: 0;
+  left: 1219px;
+  width: 129px;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.frame {
+  top: 34px;
+  left: 64px;
+  width: 1348px;
+  height: 123px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-iceberg);
+}

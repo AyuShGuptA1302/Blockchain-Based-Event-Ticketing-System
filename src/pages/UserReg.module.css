@@ -1,0 +1,335 @@
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  top: 88px;
+  left: 79px;
+  width: 555.4px;
+  height: 582.5px;
+  object-fit: cover;
+  opacity: 0.03;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3 {
+  top: 375px;
+  left: -323px;
+  width: 616.4px;
+  height: 648.5px;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  top: -267px;
+  left: -213px;
+  width: 653.5px;
+  height: 587.6px;
+}
+.vectorIcon3 {
+  top: 654px;
+  left: -81px;
+  width: 615.2px;
+  height: 641.7px;
+}
+.userRegChild {
+  position: absolute;
+  top: 0;
+  left: 564px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke);
+  width: 876px;
+  height: 1052px;
+}
+
+.createAccount {
+  position: absolute;
+  top: 53px;
+  left: 837px;
+  font-size: var(--font-size-45xl);
+  display: inline-block;
+  width: 427px;
+  height: 52px;
+}
+.d418411193784811Icon {
+  position: absolute;
+  top: 184px;
+  left: 27px;
+  width: 720px;
+  height: 889px;
+  object-fit: cover;
+}
+
+.conpass,
+.age,
+.frameDiv,
+.userRegChild1,
+.userRegChild2,
+.userRegChild3,
+.userRegInner,
+.userRegItem {
+  position: absolute;
+  top: 223px;
+  left: 733px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 289px;
+  height: 51px;
+  overflow: hidden;
+}
+.drop{
+  position: absolute;
+  top: 243px;
+  left: 733px;
+  width: 400px;
+  height: 51px;
+  overflow: hidden;
+}
+.frameDiv,
+.userRegChild1,
+.userRegChild2,
+.userRegChild3,
+.userRegInner {
+  left: 1067px;
+}
+
+.frameDiv,
+.userRegChild1,
+.userRegChild2 {
+  top: 328px;
+}
+
+.userRegChild1,
+.userRegChild2
+ {
+  top: 327px;
+  left: 733px;
+}
+
+.userRegChild2
+ {
+  top: 442px;
+}
+
+.userRegChild3 {
+  top: 443px;
+  left: 1067px;
+}
+.age{
+  top: 525px;
+  left: 1067px;
+}
+.conpass{
+  top: 525px;
+  left: 733px;
+}
+.drop{
+  top: 605px;
+  left: 793px;
+  
+}
+.drop label{
+  margin-right: 48px;
+}
+.firstName1 {
+  position: relative;
+}
+.email,
+.firstName {
+  position: absolute;
+  top: 210px;
+  left: 747px;
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+}
+.email {
+  top: 314px;
+  align-items: center;
+}
+.userAccount {
+  position: absolute;
+  top: 135px;
+  left: 91px;
+  font-size: var(--font-size-45xl);
+  color: var(--color-sandybrown-200);
+  display: inline-block;
+  width: 376px;
+  height: 55px;
+}
+.confirmPassword,
+.lastName,
+.password,
+.phoneNumber {
+  position: absolute;
+  top: 314px;
+  left: 1083px;
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+}
+.confirmPassword,
+.lastName,
+.password {
+  top: 430px;
+  left: 747px;
+}
+.confirmPassword,
+.lastName {
+  top: 430px;
+  left: 1083px;
+}
+.lastName {
+  top: 210px;
+}
+.userRegChild4,
+.userRegChild5,
+.userRegChild6 {
+  position: absolute;
+  top: 698px;
+  left: 879px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 337px;
+  height: 54px;
+  overflow: hidden;
+}
+.userRegChild5,
+.userRegChild6 {
+  top: 767px;
+}
+.userRegChild6 {
+  top: 836px;
+}
+.signUp {
+  align-self: stretch;
+  position: absolute;
+  background-color: var(--color-sandybrown-200);
+  border: burlywood;
+ width: 400px;
+  border-radius: 30px;
+  font-family:  var(--font-iceberg);
+  top: 655px;
+  left: 860px;
+  height: 60px;
+}
+
+.signUpUsing {
+  position: absolute;
+  top: 867px;
+  left: 881px;
+  width: 330px;
+  height: 54px;
+  background-color: transparent;
+  font-family:  var(--font-iceberg);
+  font-size: 20px;
+  border-radius: 7px;
+  border-color: var(--color-sandybrown-200);
+}
+.fIcon {
+  position: absolute;
+  top: 872px;
+  left: 894px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.signUpUsing1 {
+  position: absolute;
+  top: 797px;
+  left: 882px;
+  width: 330px;
+  height: 54px;
+  background-color: transparent;
+  font-family:  var(--font-iceberg);
+  font-size: 20px;
+  border-radius: 7px;
+  border-color: var(--color-sandybrown-200);
+}
+.gIcon {
+  position: absolute;
+  top: 801px;
+  left: 894px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.signUpUsing2 {
+  position: absolute;
+  top: 728px;
+  left: 883px;
+  width: 330px;
+  height: 54px;
+  background-color: transparent;
+  font-family:  var(--font-iceberg);
+  font-size: 20px;
+  border-radius: 7px;
+  border-color: var(--color-sandybrown-200);
+}
+.log1Icon,
+.xIcon {
+  position: absolute;
+  top: 732px;
+  left: 894px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.log1Icon {
+  top: 37px;
+  left: 64px;
+  width: 215px;
+  height: 123px;
+}
+.login,
+.youAlreadyHave {
+  position: absolute;
+  top: 973px;
+  left: 728px;
+  font-size: var(--font-size-21xl);
+}
+.login {
+  left: 1241px;
+  color: var(--color-sandybrown-200);
+  cursor: pointer;
+}
+.sda1Icon {
+  position: absolute;
+  top: 44px;
+  left: 1377px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.userReg {
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+  width: 100%;
+  height: 1054px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-iceberg);
+}
+
+.conpass1,
+.agee,
+.Lastnameinput,
+.passwordconfirm,
+.passwordinput,
+.phonenumberinput,
+.emailinput,
+.Firstnameinput{
+  width: inherit;
+  height: inherit;
+  background-color: transparent;
+  font-size: 20px;
+}
